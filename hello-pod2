@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   labels:
     name: hello-pod
-    team:qe
+    team: qe
   name: hello-pod
 spec:
   containers:
