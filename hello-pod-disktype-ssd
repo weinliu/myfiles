@@ -26,4 +26,6 @@ spec:
   volumes:
     - emptyDir: {}
       name: tmp
+  nodeSelector:
+    disktype: ssd
 status: {}
