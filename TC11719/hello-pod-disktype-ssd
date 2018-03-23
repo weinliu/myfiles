@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    disktype: ssd
+    name: hello-pod-ssd
   name: hello-pod-ssd
 spec:
   containers:
