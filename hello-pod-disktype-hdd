@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    name: hello-pod
-  name: hello-pod
+    disktype: hdd
+  name: hello-pod-hhd
 spec:
   containers:
     - image: "docker.io/ocpqe/hello-pod:latest"
